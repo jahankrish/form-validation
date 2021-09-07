@@ -105,12 +105,11 @@ class FormValidation{
     alertMessage(){
         const {usernameErr , emailErr , phonenumberErr , passwordErr , confirmpasswordErr}= this.errorValues
         if(usernameErr === "" && emailErr === "" && phonenumberErr === "" && passwordErr === "" && confirmpasswordErr === ""){
-            swal("Registration Successful","ThankYou , "+this.formValues.username,"success").then(() => {
-                console.log(this.formValues)
+            alert("Registration Successful","ThankYou , "+this.formValues.username,"success");
                 this.removeInputs()
             })
         } else {
-            swal("Give Valid Inputs","Click ok to Continue" ,"error")
+           alert("Give Valid Inputs","Click ok to Continue" ,"error")
         }
     }
 
