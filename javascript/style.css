@@ -85,12 +85,12 @@ body {
   visibility: visible;
 }
 
-.form-group.success i.ion-ios-checkmark {
+.form-group.success i.fa-check-circle {
   visibility: visible;
   color: #2ecc71;
 }
 
-.form-group.error i.ion-android-alert {
+.form-group.error i.fa-exclamation-circle {
   visibility: visible;
   color: #e74c3c;
 }
