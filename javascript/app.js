@@ -107,7 +107,6 @@ class FormValidation{
         if(usernameErr === "" && emailErr === "" && phonenumberErr === "" && passwordErr === "" && confirmpasswordErr === ""){
             alert("Registration Successful","ThankYou , "+this.formValues.username,"success");
                 this.removeInputs()
-            })
         } else {
            alert("Give Valid Inputs","Click ok to Continue" ,"error")
         }
